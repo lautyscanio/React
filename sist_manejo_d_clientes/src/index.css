@@ -52,10 +52,8 @@ button:hover {
 button:active{
   transform: scale(0.9);
 }
-button:focus,
-button:focus-visible {
 
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {
