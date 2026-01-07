@@ -5,6 +5,7 @@ function App() {
   const [buscando,setBuscando]=useState("");
   const [cargando, setCargando] = useState(true);
   const [MostrarFormulario, setFormulario] = useState(false);
+  const [MostrarMakina, setMakina] = useState(false);
 
   
 
@@ -44,7 +45,37 @@ const enviarFormulario = (e) => {
 
   // Si ya cargo, mostramos la interfaz real
   return (
+    
     <div style={{ padding: '20px', fontFamily: 'Arial', backgroundColor: '#f4f4f4', minHeight: '100vh' }}>
+
+        <button style={{ width: '1em',
+              padding: '10px',
+              backgroundColor: '#ffffffff',
+              color: 'white',
+              border: 'none',
+              borderRadius: '5px',
+              cursor: 'pointer',
+              marginTop: '10px'}}
+              onClick={()=>setMakina(!MostrarMakina)}>
+
+              </button>
+
+            {MostrarMakina && (
+        <div style={{ position: 'fixed', top:0, left:0, width:'100%', height:'100%', background:'rgba(0,0,0,0.5)', display:'flex', justifyContent:'center', alignItems:'center', zIndex:1000 }}>
+          <div style={{ background: 'white', padding: '30px', borderRadius: '10px', width: '300px', position:'relative' }}>
+            
+            <button onClick={() => setMakina(false)} style={{cursor:'pointer', position: 'absolute', top: '5px', right: '10px', border: 'none', background: 'none' }}>
+              ✖
+              </button>
+            <h2> si estas leyendo esto, sos un makina, estudia y segui aprendiendo no seas pajero</h2>
+            <h3>atte:sca</h3>
+
+           
+
+          </div>
+        </div>
+      )}
+
       <button style={{
                width: '10em',
               padding: '10px',
@@ -59,6 +90,8 @@ const enviarFormulario = (e) => {
         >
           crear cliente
         </button>
+
+      
 
        {MostrarFormulario && (
         <div style={{ position: 'fixed', top:0, left:0, width:'100%', height:'100%', background:'rgba(0,0,0,0.5)', display:'flex', justifyContent:'center', alignItems:'center', zIndex:1000 }}>
