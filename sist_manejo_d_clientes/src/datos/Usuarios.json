@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "username": "lauty",
+    "password": "L@uty2007",
+    "nombreCompleto": "Lauty Scanio (CEO)",
+    "misClientes": [
+      { "id": 101, "name": "Google Inc", "email": "sundar@google.com", "company": { "name": "Alphabet" }, "website": "google.com" },
+      { "id": 102, "name": "Lionel Messi", "email": "lio@afa.org.ar", "company": { "name": "Inter Miami" }, "website": "leomessi.com" },
+      { "id": 103, "name": "Elon Musk", "email": "elon@x.com", "company": { "name": "Tesla" }, "website": "x.com" },
+      { "id": 104, "name": "Bill Gates", "email": "bill@gates.com", "company": { "name": "Microsoft" }, "website": "microsoft.com" },
+      { "id": 105, "name": "Mark Zuckerberg", "email": "mark@fb.com", "company": { "name": "Meta" }, "website": "facebook.com" },
+      { "id": 106, "name": "Jeff Bezos", "email": "jeff@amazon.com", "company": { "name": "Amazon" }, "website": "amazon.com" },
+      { "id": 107, "name": "Tim Cook", "email": "tim@apple.com", "company": { "name": "Apple" }, "website": "apple.com" }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "vendedor",
+    "password": "123",
+    "nombreCompleto": "Roberto Ventas",
+    "misClientes": [
+      { "id": 201, "name": "Coca Cola Co.", "email": "contacto@coca-cola.com", "company": { "name": "The Coca-Cola Company" }, "website": "coca-cola.com" },
+      { "id": 202, "name": "Pepsi", "email": "admin@pepsi.com", "company": { "name": "PepsiCo" }, "website": "pepsi.com" },
+      { "id": 203, "name": "McDonalds", "email": "ronald@mcdonalds.com", "company": { "name": "Arcos Dorados" }, "website": "mcdonalds.com" },
+      { "id": 204, "name": "Burger King", "email": "king@bk.com", "company": { "name": "Restaurant Brands" }, "website": "bk.com" },
+      { "id": 205, "name": "Nike", "email": "justdoit@nike.com", "company": { "name": "Nike Inc" }, "website": "nike.com" },
+      { "id": 206, "name": "Adidas", "email": "adi@adidas.com", "company": { "name": "Adidas AG" }, "website": "adidas.com" },
+      { "id": 207, "name": "Puma", "email": "run@puma.com", "company": { "name": "Puma SE" }, "website": "puma.com" }
+    ]
+  },
+  {
+    "id": 3,
+    "username": "rrhh",
+    "password": "123",
+    "nombreCompleto": "Ana Recursos",
+    "misClientes": [
+      { "id": 301, "name": "Santander Rio", "email": "hola@santander.com", "company": { "name": "Banco Santander" }, "website": "santander.com" },
+      { "id": 302, "name": "BBVA", "email": "frances@bbva.com", "company": { "name": "Banco BBVA" }, "website": "bbva.com" },
+      { "id": 303, "name": "Galicia", "email": "eminente@galicia.com", "company": { "name": "Grupo Financiero Galicia" }, "website": "galicia.ar" },
+      { "id": 304, "name": "Visa", "email": "pagos@visa.com", "company": { "name": "Visa Inc" }, "website": "visa.com" },
+      { "id": 305, "name": "Mastercard", "email": "credit@master.com", "company": { "name": "Mastercard" }, "website": "mastercard.com" },
+      { "id": 306, "name": "Mercado Libre", "email": "ml@mercadolibre.com", "company": { "name": "MercadoLibre" }, "website": "mercadolibre.com" },
+      { "id": 307, "name": "Globant", "email": "globbers@globant.com", "company": { "name": "Globant" }, "website": "globant.com" }
+    ]
+  }
+]
